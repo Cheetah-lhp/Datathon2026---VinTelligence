@@ -1,8 +1,6 @@
-# Datathon 2026 — Dự báo Doanh thu & COGS cho E-Commerce
+# VinTelligence Datathon 2026 — The Gridbreakers
 
-**Mục tiêu**: Dự báo doanh thu và COGS hàng ngày, giai đoạn 01/01/2023 – 01/07/2024
-
-**Metric đánh giá**: MAE, RMSE, R²
+**Bài toán**: Dự báo doanh thu và COGS hàng ngày, giai đoạn 01/01/2023 – 01/07/2024
 
 **Đội thi**: _**The Forecasters**_
 
@@ -26,12 +24,13 @@ DATATHON2026/
 abc xyz(thêm sau)
 
 ## Sử dụng (Reproduce)
-Tạo và import notebook trong cuộc thi trên Kaggle, sau đó chạy notebook. Riêng với new_version.ipynb cần chọn Kaggle GPU để tăng tốc quá trình huấn luyện
+Tạo và import notebook trong cuộc thi trên Kaggle, sau đó chạy notebook Khi chạy hàm tune_base_models trong file final_version.ipynb nên chạy trên GPU để tăng tốc quá trình huấn luyện
 
 | Notebook | Mục đích |
 | :--- | :--- |
 | baseline.ipynb | File baseline gốc của chương trình |
 | first_version.ipynb | File nháp để tham khảo và chỉnh sửa |
+| shap_analysis.ipynb | File giải thích mô hình bằng SHAP |
 | final_version.ipynb | File để nộp chứa pipeline huấn luyện và sinh submission.csv |
 
 ## Submission
