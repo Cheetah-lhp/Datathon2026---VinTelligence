@@ -1,7 +1,8 @@
 # VinTelligence Datathon 2026 — The Gridbreakers
 
 **Bài toán**: Dự báo doanh thu và COGS hàng ngày, giai đoạn 01/01/2023 – 01/07/2024
-
+ https://www.kaggle.com/competitions/datathon-2026-round-1
+ 
 **Đội thi**: _**The Forecasters**_
 
 **Thành viên**: _**Lâm Huy Vũ**_, Lê Hoàng Phúc, Hoàng Phương Dung, Phạm Xuân Tuấn
@@ -24,7 +25,13 @@ DATATHON2026/
 abc xyz(thêm sau)
 
 ## Sử dụng (Reproduce)
-Tạo và import notebook trong cuộc thi trên Kaggle, sau đó chạy notebook Khi chạy hàm tune_base_models trong file final_version.ipynb nên chạy trên GPU để tăng tốc quá trình huấn luyện
+1. Tạo và import notebook trong cuộc thi trên Kaggle,
+2. Sau đó chạy "Run all cells" (**Lưu ý**: chạy trên GPU để tăng tốc quá trình huấn luyện)
+3. Khi chạy xong tất cả các cells. Notebook sẽ ghi file"
+
+   ```
+   /kaggle/working/submission.csv
+   ```
 
 | Notebook | Mục đích |
 | :--- | :--- |
