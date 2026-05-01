@@ -16,7 +16,8 @@ DATATHON2026/
 │
 ├── notebooks/
 │ ├── baseline.ipynb
-│ ├── first_version.ipynb
+│ ├── draft1.ipynb
+│ ├── draft2.ipynb
 │ ├── shap_analysis.ipynb
 │ └── final_version.ipynb
 │
@@ -32,14 +33,15 @@ DATATHON2026/
 ├── requirements.txt
 └── README.md
 
+```
+
 | Notebook | Mục đích |
 | :--- | :--- |
 | baseline.ipynb | File baseline gốc của chương trình |
-| first_version.ipynb | File nháp để tham khảo và chỉnh sửa |
+| draft1(/2).ipynb | File nháp để tham khảo và chỉnh sửa |
 | shap_analysis.ipynb | File giải thích mô hình bằng SHAP |
 | final_version.ipynb | File để nộp chứa pipeline huấn luyện và sinh submission.csv |
 
-```
 ---
 
 ## Phương pháp
