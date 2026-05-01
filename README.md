@@ -13,12 +13,20 @@
 ```
 DATATHON2026/
 ├── data/datathon-2026-round-1
+│
 ├── notebooks/
-│ ├── các file EDA phần 2 ...... #(thêm sau)
 │ ├── baseline.ipynb
 │ ├── first_version.ipynb
 │ ├── shap_analysis.ipynb
 │ └── final_version.ipynb
+│
+├── src_2/
+│ ├── chart
+│ │ ├── image
+│ │
+│ ├── eda
+│ │ ├── insight
+│
 ├── Submission/
 │ └── submission.csv
 ├── requirements.txt
@@ -31,9 +39,9 @@ DATATHON2026/
 | shap_analysis.ipynb | File giải thích mô hình bằng SHAP |
 | final_version.ipynb | File để nộp chứa pipeline huấn luyện và sinh submission.csv |
 
+```
 ---
 
-```
 ## Phương pháp
 Mô hình chính sử dụng **stacking ensemble** gồm:
 
@@ -92,5 +100,5 @@ python -m pip install -r requirements.txt
 ---
 
 ## Submission
+- Địn dạng giống file [`sample_submission.csv`](https://github.com/Cheetah-lhp/Datathon2026---VinTelligence/blob/main/data/sample_submission.csv)
 - File [`submission.csv`](https://github.com/Cheetah-lhp/Datathon2026---VinTelligence/blob/main/submission/submission.csv) nằm trong thư mục *Submission/submission.csv*
-- Link kaggle + score leaderboard(thêm sau)
